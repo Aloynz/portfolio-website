@@ -115,7 +115,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Aloysius."
-    subtitle: "I love to build cool stuff"
+    subtitle: "I build cool stuff"
     # content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/aloy.png
     button:
@@ -143,12 +143,13 @@ params:
       I have a strong interest in Android App Development and I am currently planning to specialise in Software Engineering and Network Security in my university degree.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies which I have used:"
       items:
         - Javascript
         - React
         - Java
         - Python
+        - C
         - Bootstrap (with this website!)
 
   # Experience
@@ -199,7 +200,7 @@ params:
         image: /images/projects/fithup.png
         featured:
           name: Repo
-          link: https://github.com/jianminglok/FitHup
+          link: https://github.com/Aloynz/FitHup
 
         badges:
           - React Native

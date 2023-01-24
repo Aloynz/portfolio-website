@@ -147,10 +147,11 @@ params:
       items:
         - Javascript
         - React
-        - Java
+        - Java (JavaFX, Java Swing)
         - Python
         - C
-        - Bootstrap (with this website!)
+        - Bootstrap
+        - Kotlin
 
   # Experience
   experience:
@@ -180,11 +181,16 @@ params:
           url: "https://www.comp.nus.edu.sg/programmes/ug/cs/"
         date: "2021 - present"
 
+
   # Achievements
   achievements:
     enable: true
     # title: "Custom Name"
     items:
+      - title: NUS Orbital (Apollo 11)
+        # content: Participant
+        url: https://credentials.nus.edu.sg/af1edc28-47c2-44ae-8bc4-44c0acba448b
+
       - title: Shopee Code League 2022
         content: Participant
         url: https://www.credly.com/badges/508558a4-5b9b-4395-a8f8-0e0147311046/public_url
@@ -229,6 +235,33 @@ params:
         links:
           - icon: far fa-file
             url: https://ay2223s1-cs2103t-w10-1.github.io/tp/team/aloynz.html
+
+      - title: Sudoku Solver
+        content: A sudoku solver desktop application built with Java Swing as the GUI. The solver implements the backtracking algorithm to solve the puzzle.
+        image: /images/projects/sudoku.png
+        featured:
+          name: Repo
+          link: https://github.com/Aloynz/sudoku-solver
+
+        badges:
+          - Java
+          - Java Swing
+          - Java AWT
+
+      - title: Darts App (In Progress)
+        content: A darts scoring android application built in Kotlin.
+        image: /images/projects/darts.png
+        featured:
+          name: Repo
+          link: https://github.com/Aloynz/DartsApp
+
+        badges:
+          - Kotlin
+          - Jetpack Compose
+
+        links:
+        - icon: far fa-file
+          url: https://www.figma.com/file/9hazt4cSSlLosNzvRPsHAb/darts-doggo?node-id=0%3A1&t=8Ae6gQHlfksyaJTh-1
 
 
       - title: Duke Chat Bot
